@@ -1,42 +1,56 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+h1{
+	font-size: 3em;
+	color:rgb(230, 155, 25);
+	text-align: center;
+}
+p{
+	font-size: 0.6em;
+	text-align: left;
+	color:white;
+	margin-top: 4em;
+}
+h3{
+	font-size: 0.7em;
+	color:white;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+body{
+	background-color: rgb(44, 8, 92);
 }
+.label{
+	height: 1em;
+	width: 3em;
+	align-items: center;
+	text-align: 2em;
+	color: white;
+}
+.exciting{
+	color:red;
+}
+.site-search{
+	align-items: center;
 
+}
 .card {
-  padding: 2em;
-}
+	padding: 0.5em 1em;
+	margin: 0.4em;
+} 
 
-.read-the-docs {
-  color: #888;
+.card img{
+	display: block;
+	width: 100%;
+	height: 6em;
+	background-color: rgb(232, 233, 158);
+}
+.card > .under-bild{
+	background-color: rgb(139, 139, 246);
+	display:block;
+	width:100%;
+	height: 5em;
+}
+.book-flex{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
 }
