@@ -5,13 +5,14 @@ h1{
 }
 p{
 	font-size: 0.6em;
-	text-align: left;
-	color:white;
-	margin-top: 4em;
+	text-align: center;
+	color:black;
+	margin-top: 5em;
 }
 h3{
 	font-size: 0.7em;
-	color:white;
+	color:black;
+	text-align: center;
 }
 
 
@@ -19,36 +20,41 @@ h3{
 body{
 	background-color: rgb(44, 8, 92);
 }
-.label{
+label{
 	height: 1em;
 	width: 3em;
-	align-items: center;
-	text-align: 2em;
 	color: white;
+	align-items: center;
+	margin: 10em;
+
 }
 .exciting{
 	color:red;
 }
 .site-search{
 	align-items: center;
-
+	
 }
+
 .card {
 	padding: 0.5em 1em;
 	margin: 0.4em;
+	display:flex;
+	flex-direction: column;
 } 
 
 .card img{
-	display: block;
+	
 	width: 100%;
-	height: 6em;
+	height: 90px;
 	background-color: rgb(232, 233, 158);
 }
 .card > .under-bild{
+	
+	width: 100%;
+	height: 90px;
 	background-color: rgb(139, 139, 246);
-	display:block;
-	width:100%;
-	height: 5em;
+	
 }
 .book-flex{
 	display: grid;

@@ -9,9 +9,9 @@ function App() {
   return (
 	<main>
 
-  <h1 class="excisting"> Hollywood watch </h1>
+  <h1 className="excisting"> Hollywood watch </h1>
 
-<label for="site-search">Search movie:</label>
+<label for="site-search"></label>
 <input type="search" id="site-search" name="q" />
 	
 
